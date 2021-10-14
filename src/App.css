@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(2, 2, 117);
+  color: white;
+  display: flex;
+  padding: 15px 20px;
+  border-bottom: 2px solid black;
+}
+
+.new-contact {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.add-btn {
+  margin: 15px;
+  padding: 12px;
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.new-contact {
+  background-color: rgba(128, 255, 0, 0.514);
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.new-contact div {
+  margin-right: 35px;
+}
+
+.new-contact input {
+  padding: 7px;
+  border: 2px solid blue;
+  margin-left: 10px;
+}
+
+.save-btn {
+  padding: 8px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.top-row {
+  display: flex;
+  text-align: center;
+  padding: 20px 0;
+  background-color: darkgrey;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.top-row-name {
+  width: 15%;
+  border-right: 2px solid rgba(128, 128, 128, 0.712);
+}
+
+.top-row-last-name {
+  width: 20%;
+  border-right: 2px solid gray;
+}
+
+.top-row-number {
+  width: 25%;
+  border-right: 2px solid gray;
+} 
+
+.top-row-info {
+  width: 25%;
+  border-right: 2px solid gray;
+}
+
+.top-row-options {
+  width: 15%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: cornsilk;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.contact-name {
+  width: 15%;
+}
+
+.contact-last-name {
+  width: 20%;
+}
+
+.contact-number, .contact-info {
+  width: 25%;
+}
+
+.contact-options {
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-edit-btn {
+  padding: 5px 18px;
+  background-color: green;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact-delete-btn {
+  padding: 5px 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact-change {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: tomato;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.contact-change input {
+  padding: 7px;
+  border: 2px solid blue;
+  margin-left: 10px;
+}
